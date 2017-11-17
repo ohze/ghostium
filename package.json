@@ -1,5 +1,5 @@
 {
-  "name": "Ghostium",
+  "name": "ghostium",
   "version": "2.3.2",
   "description": "A Ghost theme focused on content based on Medium design/ux",
   "url": "http://ghostium.oswaldoacauan.com/",
@@ -51,5 +51,8 @@
   "scripts": {
     "test": "grunt --verbose",
     "postinstall": "bundle install && bower install"
+  },
+  "config": {
+    "posts_per_page": 5
   }
 }
